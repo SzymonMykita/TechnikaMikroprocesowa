@@ -1,7 +1,7 @@
 #include <msp430.h>
 char stansw;
 int main(void)
-
+//
 {
 WDTCTL=WDTPW+WDTHOLD;
 P1DIR|=0X01;
